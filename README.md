@@ -60,3 +60,7 @@ Lots of Ctrl Z
 TESTS:
 
 My patience and my sanity   
+
+DEPLOYMENT LINK
+
+https://katvela24.github.io/Katherine-Portfolio/
