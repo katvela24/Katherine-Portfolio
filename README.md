@@ -63,4 +63,4 @@ My patience and my sanity
 
 DEPLOYMENT LINK
 
-index.html
+[Link:](https://katvela24.github.io/Katherine-Portfolio/)
