@@ -61,6 +61,11 @@ TESTS:
 
 My patience and my sanity   
 
-DEPLOYMENT LINK
 
-[Link:](https://katvela24.github.io/Katherine-Portfolio/)
+LINK:
+
+ https://katvela24.github.io/Katherine-Portfolio/
+
+SCREENSHOT:
+
+![ss](Assets/Images/screenshot.png) 
