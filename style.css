@@ -4,16 +4,39 @@
     box-sizing: border-box;
 }
 
+/* general settings for body styling */
+
 body {
 
     font-family: sans-serif;
     color: rgb(59, 63, 146);
 }
 
+/* start header styling*/
 header {
 
     background-color: rgba(0, 0, 0, 0.811);
 }
+
+
+h1 {
+
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+h2 {
+
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
 
 #top {
 
@@ -40,25 +63,6 @@ header {
 
 }
 
-h1 {
-
-    margin-left: 20px;
-    color: rgba(0, 0, 0, 0.781);
-}
-
-h2 {
-
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-
-
-}
-
 nav a {
 
     margin-right: 20px;
@@ -67,8 +71,9 @@ nav a {
 }
 
 .pic img {
-    width: 100px;
-    height: 100px size-adjust: 62.5%;
+    width: 200px;
+    height: 200px; 
+    size-adjust: 62.5%;
     padding: 10px;
     padding-right: 50px;
     padding-bottom: 30px;
@@ -78,15 +83,14 @@ nav a {
 
 #portfolio {
 
-
     background-image: url("./Assets/Images/background.jpeg");
     background-size: cover;
-    height: 150px;
+    height: 250px;
     display: flex;
     justify-content: end;
     align-items: end;
-    padding: 10px;
-    padding-right: 50px;
+    padding: 0px;
+    padding-right: 80px;
     padding-bottom: 30px;
 
 }
@@ -197,4 +201,11 @@ section {
     width: 85%;
     margin: auto;
     padding-right: 20px;
+}
+
+/*Media query for all devices */
+
+@media screen,
+print {
+    /* … */
 }
