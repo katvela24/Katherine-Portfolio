@@ -65,8 +65,20 @@ nav a {
 
 }
 
+.pic img {
+    width: 100px;
+    height: 100px
+    size-adjust: 62.5%;
+    padding: 10px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    
+}
+
+
 #portfolio {
 
+    
     background-image: url("./Assets/Images/background.jpeg");    
     background-size: cover;
     height: 150px;
@@ -155,7 +167,7 @@ img {
 section {
 
     display: grid;
-    grid-template-columns: 0.3fr 1.7fr;
+    grid-template-columns: 0.1fr 1.7fr;
     align-items: center;
 }
 
@@ -176,4 +188,10 @@ section {
 .contactlinks a:hover {
 
     color: rgb(255, 192, 212);
+}
+
+.description {
+    width: 85%;
+    margin: auto;
+    padding-right: 20px;
 }
