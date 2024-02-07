@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,7 +17,7 @@ header {
 
 #top {
 
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
@@ -36,7 +37,7 @@ header {
 
     background-color: lightblue;
     padding: 10px;
-    
+
 }
 
 h1 {
@@ -54,8 +55,8 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    
-    
+
+
 }
 
 nav a {
@@ -67,19 +68,18 @@ nav a {
 
 .pic img {
     width: 100px;
-    height: 100px
-    size-adjust: 62.5%;
+    height: 100px size-adjust: 62.5%;
     padding: 10px;
     padding-right: 50px;
     padding-bottom: 30px;
-    
+
 }
 
 
 #portfolio {
 
-    
-    background-image: url("./Assets/Images/background.jpeg");    
+
+    background-image: url("./Assets/Images/background.jpeg");
     background-size: cover;
     height: 150px;
     display: flex;
@@ -88,7 +88,7 @@ nav a {
     padding: 10px;
     padding-right: 50px;
     padding-bottom: 30px;
-    
+
 }
 
 #portfolio h2 {
@@ -98,16 +98,18 @@ nav a {
     color: rgba(0, 0, 0, 0.781);
 
 }
-img { 
+
+img {
 
     width: 100%;
 
 
 }
+
 .item1 {
 
     grid-area: top;
-    
+
 }
 
 .item2 {
@@ -138,14 +140,14 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "top top"
-    "item2 item3"
-    "item4 item5";
+        "item2 item3"
+        "item4 item5";
     gap: 20px;
     padding: 0 100px;
 }
 
 .projects-grid {
-    position:relative;
+    position: relative;
 
 }
 
@@ -156,7 +158,7 @@ img {
 
 .project-content {
 
-    position:absolute;
+    position: absolute;
     bottom: 3px;
     right: 0px;
     background-color: lightblue;
@@ -173,14 +175,15 @@ section {
 
 .contactlinks {
 
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
 .contactlinks a {
 
-    display:block;
+    display: block;
     margin-right: 20px;
 
 }
